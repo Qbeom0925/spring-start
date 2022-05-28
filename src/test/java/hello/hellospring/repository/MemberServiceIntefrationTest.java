@@ -58,7 +58,7 @@ public class MemberServiceIntefrationTest {
         repository.save(member1);
 
         Member member2 = new Member();
-        member2.setName("spring1");
+        member2.setName("spring2");
         repository.save(member2);
 
         List<Member> result = repository.findAll();
